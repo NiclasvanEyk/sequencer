@@ -1,0 +1,21 @@
+[package]
+name = "sequencer"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.5"
+humantime = "2.1.0"
+
+[dev-dependencies]
+criterion = { version = "0.4", features = ["html_reports"] }
+
+[[bench]]
+name = "divide_and_conquer"
+harness = false
+
+[[bench]]
+name = "sequential_search"
+harness = false
