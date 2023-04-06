@@ -2,6 +2,16 @@
 
 Finding holes in positive integer sequences.
 
+## Example
+
+Given the sequence
+
+```
+1 2 3 4 _ 6 7
+```
+
+the next number to be inserted should be `5`, since it is currently missing.
+
 ## Strategies
 
 `sequencer` provides two strategies:
